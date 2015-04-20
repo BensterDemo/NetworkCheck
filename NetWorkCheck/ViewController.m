@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetWrokUtility.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    BOOL success = [NetWrokUtility checkNetWork:@"http://baidu.com"];
+    
+    if (success) {
+        NSLog(@"网络正常");
+    } else {
+        NSLog(@"网络异常");
+    }
 }
 
 @end

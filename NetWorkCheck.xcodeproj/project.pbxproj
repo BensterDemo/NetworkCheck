@@ -14,6 +14,7 @@
 		C186487D1AE48A360081CD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C186487C1AE48A360081CD6E /* Images.xcassets */; };
 		C18648801AE48A360081CD6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C186487E1AE48A360081CD6E /* LaunchScreen.xib */; };
 		C186488C1AE48A360081CD6E /* NetWorkCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C186488B1AE48A360081CD6E /* NetWorkCheckTests.m */; };
+		C18648981AE48A710081CD6E /* NetWrokUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C18648971AE48A710081CD6E /* NetWrokUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C18648851AE48A360081CD6E /* NetWorkCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetWorkCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C186488A1AE48A360081CD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C186488B1AE48A360081CD6E /* NetWorkCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkCheckTests.m; sourceTree = "<group>"; };
+		C18648961AE48A710081CD6E /* NetWrokUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWrokUtility.h; sourceTree = "<group>"; };
+		C18648971AE48A710081CD6E /* NetWrokUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWrokUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		C186486E1AE48A360081CD6E /* NetWorkCheck */ = {
 			isa = PBXGroup;
 			children = (
+				C18648951AE48A710081CD6E /* Classes */,
 				C18648731AE48A360081CD6E /* AppDelegate.h */,
 				C18648741AE48A360081CD6E /* AppDelegate.m */,
 				C18648761AE48A360081CD6E /* ViewController.h */,
@@ -117,6 +121,15 @@
 				C186488A1AE48A360081CD6E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C18648951AE48A710081CD6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C18648961AE48A710081CD6E /* NetWrokUtility.h */,
+				C18648971AE48A710081CD6E /* NetWrokUtility.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18648781AE48A360081CD6E /* ViewController.m in Sources */,
+				C18648981AE48A710081CD6E /* NetWrokUtility.m in Sources */,
 				C18648751AE48A360081CD6E /* AppDelegate.m in Sources */,
 				C18648721AE48A360081CD6E /* main.m in Sources */,
 			);
